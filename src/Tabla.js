@@ -19,13 +19,15 @@ const Tabla = () => {
     <table>
       <thead>
         <tr>
-          <th>TipoSangre</th>
           <th>Nombre</th>
           <th>Apellido</th>
           <th>CantDonacionesNecesitadas</th>
           <th>Compatibilidad</th>
           <th>Historia</th>
           <th>NecesitaSangre</th>
+          <th>Grupo</th>
+          <th>Factor</th>
+          <th>fkCentro</th>
         </tr>
       </thead>
       <tbody>
@@ -34,14 +36,15 @@ const Tabla = () => {
 
           beneficiario.map((beneficiario) => (
             <tr key = {beneficiario.Id}>
-            <td>{beneficiario.TipoSangre}</td>
             <td>{beneficiario.Nombre}</td>
             <td>{beneficiario.Apellido}</td>
             <td>{beneficiario.CantDonacionesNecesitadas}</td>
             <td>{beneficiario.Compatibilidad}</td>
             <td>{beneficiario.Historia}</td>
             <td>{beneficiario.NecesitaSangre}</td>
-            <td>dou</td>
+            <td>{beneficiario.Grupo}</td>
+            <td>{beneficiario.Factor}</td>
+            <td>{beneficiario.fkCentro}</td>
 
           </tr>
           ))
