@@ -1,5 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from "react";
+import './Tabla.css'
 
 const Tabla = () => {
     const [beneficiario, setBeneficiario] =  useState([])
