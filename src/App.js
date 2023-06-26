@@ -1,16 +1,15 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import { useState } from 'react';
+import RegistroBeneficiario from './RegistroBeneficiario';
 import Tabla from './Tabla';
 
 function App() {
-
-
-
-
   return (
     <div className="App">
-      <Tabla/>
+      <div className="container">
+        <h1>BENEFICIARIOS</h1>
+        <RegistroBeneficiario />
+      </div>
     </div>
   );
 }
