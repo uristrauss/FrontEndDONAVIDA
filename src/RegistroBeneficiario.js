@@ -26,7 +26,7 @@ const RegistroBeneficiario = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     axios
-      .post('http://localhost:5000/beneficiario', formValues) // Adjust the URL and endpoint based on your backend API
+      .post('http://localhost:5000/beneficiario', formValues) 
       .then((response) => {
         console.log('Beneficiario created:', response.data);
         // Reset form values
