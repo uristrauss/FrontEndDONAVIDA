@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <div className="container">
         <h1>BENEFICIARIOS</h1>
-        <Login/>
+        <RegistroBeneficiario/>
       </div>
     </div>
   );
