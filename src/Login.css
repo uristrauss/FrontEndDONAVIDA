@@ -1,0 +1,56 @@
+/* Login.css */
+
+/* Main container styles */
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styles */
+  .login-title {
+    text-align: center;
+    font-size: 24px;
+    color: #ff4d6a; /* Red tone */
+  }
+  
+  /* Input label styles */
+  .login-label {
+    display: block;
+    font-size: 16px;
+    color: #ff4d6a; /* Red tone */
+    margin-bottom: 8px;
+  }
+  
+  /* Input styles */
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ff4d6a; /* Red tone */
+    border-radius: 5px;
+    margin-bottom: 16px;
+  }
+  
+  /* Login button styles */
+  .login-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff4d6a; /* Red tone */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #ff8cb4; /* Lighter pink tone on hover */
+  }
+  
+  
+  
