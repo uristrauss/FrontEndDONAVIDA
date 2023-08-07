@@ -27,7 +27,6 @@ const RegistroUsuario = () => {
       finMononucleosis: '',
       antipaludicos: '',
       its: '',
-      puntos: '',
       tipoSangre: '',
     });
   
