@@ -4,13 +4,13 @@ import RegistroBeneficiario from './RegistroBeneficiario';
 import Tabla from './Tabla';
 import Login from './Login';
 import RegistroUsuario from './RegistroUsuario';
+import Landing from './Landing';
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>BENEFICIARIOS</h1>
-        <RegistroUsuario/>
+        <RegistroBeneficiario/>
       </div>
     </div>
   );
